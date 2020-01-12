@@ -47,7 +47,8 @@ def using_delete(array, string)
 end 
 
 def using_delete_at(array, integer)
-  array.delete(parseInt(integer))
+  integer = parseInt(integer)
+  array.delete(integer)
 end 
 
 
